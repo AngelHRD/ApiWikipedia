@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.divInput {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input {
+  width: 600px;
+  height: 40px;
+  filter: drop-shadow(0px 0px 2px #000000);
+  font-size: larger;
+  padding-left: 10px;
+}
+
+.divResults {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.mainDiv {
+  width: 500px;
+}
+
+.result {
+  margin-top: 20px;
+}
